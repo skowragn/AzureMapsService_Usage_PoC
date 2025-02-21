@@ -21,11 +21,15 @@ from: https://learn.microsoft.com/en-us/azure/azure-maps/about-azure-maps
  2. The Azure Portal free account allows up to 250,000 transactions per month.
 
 # 3. Solution overview
-In the source code example -> the Geolocation service is using with the following API:
+In the source code example -> the Geolocation service is using with the following API to find user country by IP:
 ```
 https://atlas.microsoft.com/geolocation/ip/json?subscription-key={azureMapsKey}&api-version=1.0&ip={ipAddress}
 ```
-to find user country by IP.
+
+https://learn.microsoft.com/en-us/rest/api/maps/geolocation/get-ip-to-location?view=rest-maps-2024-04-01&tabs=HTTP
+
+![image](https://github.com/user-attachments/assets/5f34f3cf-4846-464a-8d78-0d6ac529954a)
+
 
 As the default USA IPv6 address is using: 2001:4898:80e8:b::189 (from Microsoft example).    
 
@@ -60,8 +64,6 @@ https://localhost:7218/api/AzureMaps/geolocation/{ipAddress?}
 ```
 https://localhost:7218/api/AzureMaps/restsharp/{ipAddress?}
 ```
-
-https://learn.microsoft.com/en-us/rest/api/maps/geolocation/get-ip-to-location?view=rest-maps-2024-04-01&tabs=HTTP
 
 ![image](https://github.com/user-attachments/assets/8028e10c-00b9-4a9c-b0be-3514535179c7)
 
