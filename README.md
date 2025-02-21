@@ -61,6 +61,8 @@ https://localhost:7218/api/AzureMaps/geolocation/{ipAddress?}
 https://localhost:7218/api/AzureMaps/restsharp/{ipAddress?}
 ```
 
+https://learn.microsoft.com/en-us/rest/api/maps/geolocation/get-ip-to-location?view=rest-maps-2024-04-01&tabs=HTTP
+
 ![image](https://github.com/user-attachments/assets/8028e10c-00b9-4a9c-b0be-3514535179c7)
 
 The first one is using MapsGeolocationClient client from Azure.Maps.Geolocation NuGet.
