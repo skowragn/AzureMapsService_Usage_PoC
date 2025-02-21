@@ -23,7 +23,16 @@ to find user country by IP.
 As the default USA IPv6 address is using: 2001:4898:80e8:b::189 (from Microsoft example).    
 
 ## 2. How to start
-1. Create Azure Maps account in Azure Portal
+ 1. Use/Create an account in  Azure Portal (https://portal.azure.com)
+
+![image](https://github.com/user-attachments/assets/a20521c3-39e5-469a-8cb6-48b22411286d)
+   
+
+ 2.Create Azure Maps service
+
+![image](https://github.com/user-attachments/assets/6f7df8d1-23e0-45f0-acb1-4b7c272319fd)
+
+
 2. Authentication: Recommendation: Entra ID, but in the example: API Key is using (Shared Key Authentication) - Primary Key or Secondary Key
 
  ![image](https://github.com/user-attachments/assets/b2203110-0196-4cb5-9e5f-82b2b5111119)
