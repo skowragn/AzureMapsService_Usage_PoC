@@ -6,11 +6,11 @@ The Azure Maps is a collection of geospatial services and SDKs that use fresh ma
 There are the following features:
  - REST APIs to render vector and raster maps in multiple styles and satellite imagery
  - Search services to locate addresses, places, and points of interest around the world
- - Various routing options; such as point-to-point, multipoint, multipoint optimization, isochrone, electric vehicle, commercial vehicle, traffic influenced, and matrix routing.
- - Traffic flow view and incidents view, for applications that require real-time traffic information.
- - Time zone and Geolocation services.
- - Geofencing service with location information hosted in Azure.
- - Location intelligence through geospatial analytics.
+ - Various routing options; such as point-to-point, multipoint, multipoint optimization, isochrone, electric vehicle, commercial vehicle, traffic influenced, and matrix routing
+ - Traffic flow view and incidents view, for applications that require real-time traffic information
+ - Time zone and Geolocation services
+ - Geofencing service with location information hosted in Azure
+ - Location intelligence through geospatial analytics
 
 from: https://learn.microsoft.com/en-us/azure/azure-maps/about-azure-maps
 
